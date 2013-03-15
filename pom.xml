@@ -15,11 +15,7 @@
           <configuration> 
             <assembleDirectory>target</assembleDirectory> 
             <programs>
-                <program>
-                    <mainClass>WorkerProcess</mainClass>
-                    <name>worker</name>
-                </program>
-                <program>
+                  <program>
                     <mainClass>OneOffProcess</mainClass>
                     <name>oneoff</name>
                 </program>
